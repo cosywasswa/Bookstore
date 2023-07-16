@@ -17,6 +17,7 @@
     "rules": {
       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
       "react/react-in-jsx-scope": "off",
+      "no-unused-vars": "off",
       "import/no-unresolved": "off",
       "no-unused-expressions": "off",
       "no-shadow": "off"
