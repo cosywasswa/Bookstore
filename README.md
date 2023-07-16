@@ -68,6 +68,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Project UI setup]**
+- **[Setup redux store and states]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,9 +115,9 @@ run npm start in VS Code terminal, to run via live server extension and see how 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add a Book]**
+- [ ] **[Add a Book using redux dispatch]**
 - [ ] **[Display Book list]**
-- [ ] **[Delete a Book]**
+- [ ] **[Delete a Book using dispatch]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
