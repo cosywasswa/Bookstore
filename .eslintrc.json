@@ -19,6 +19,7 @@
       "react/react-in-jsx-scope": "off",
       "no-unused-vars": "off",
       "import/no-unresolved": "off",
+      "react/jsx-props-no-spreading": "off",
       "no-unused-expressions": "off",
       "no-shadow": "off"
     },
