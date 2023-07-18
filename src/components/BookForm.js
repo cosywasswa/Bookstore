@@ -8,17 +8,19 @@ function BookForm() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
+  const [category, setCategory] = useState('');
 
   const onTitleChange = (e) => setTitle(e.target.value);
   const onAuthorChange = (e) => setAuthor(e.target.value);
 
   const saveBook = (e) => {
     e.preventDefault();
-    if (title && author) {
+    if (title && author && category) {
       dispatch(addBook({
         item_id: nanoid(),
         title,
         author,
+        category,
       }));
       setTitle('');
       setAuthor('');
@@ -42,6 +44,17 @@ function BookForm() {
           value={author}
           onChange={onAuthorChange}
         />
+        <select
+          className="form-select"
+          id="select-btn"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        >
+          <option value="empty">select category</option>
+          <option value="Action">Action</option>
+          <option value="Science fiction">Science fiction</option>
+          <option value="Economy">Economy</option>
+        </select>
         <Button type="submit" onClick={saveBook} btnName="Add-btn" btnValue="Add Book" />
       </form>
     </div>
