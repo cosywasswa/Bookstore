@@ -1,4 +1,3 @@
-/* eslint-disable */
 import PropTypes from 'prop-types';
 import React from 'react';
 import { useDispatch } from 'react-redux';
@@ -6,7 +5,7 @@ import { removeBook } from '../redux/books/booksSlice';
 import Button from './Button';
 
 function Book({
-   id, title, author, category,
+  id, title, author, category,
 }) {
   const dispatch = useDispatch();
   return (
