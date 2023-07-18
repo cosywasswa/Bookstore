@@ -67,9 +67,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add book using useDispatch]**
-- **[Display Books]**
-- **[Remove Book from the List]**
+- **[Add book to API ]**
+- **[Display Books from API]**
+- **[Remove Book from the API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +116,6 @@ run npm start in VS Code terminal, to run via live server extension and see how 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Use API]**
 - [ ] **[Styling]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,7 +142,7 @@ If you like this project, just reach out to me for more projects even better tha
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to my code reviewers and Microverse.
+I would like to thank my code reviewers and Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
