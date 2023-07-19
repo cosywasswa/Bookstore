@@ -70,6 +70,7 @@
 - **[Add book to API ]**
 - **[Display Books from API]**
 - **[Remove Book from the API]**
+- **[Fully styled website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +117,7 @@ run npm start in VS Code terminal, to run via live server extension and see how 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Styling]**
+- [ ] **[Update progress functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +143,7 @@ If you like this project, just reach out to me for more projects even better tha
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my code reviewers and Microverse.
+This web application is inspired by the Zeplin Bookstore CMS original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,16 +1,22 @@
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { FaUser } from 'react-icons/fa';
 
 function Navbar() {
   return (
-    <nav className="navigation">
-      <h1>Bookstore CMS</h1>
-      <ul className="nav-list">
-        <CustomLink className="books" to="/">BOOKS</CustomLink>
-        <CustomLink className="category" to="/Categories">CATEGORIES</CustomLink>
-      </ul>
-    </nav>
+    <header>
+      <nav className="navigation">
+        <h1>Bookstore CMS</h1>
+        <ul className="nav-list">
+          <CustomLink className="books" to="/">BOOKS</CustomLink>
+          <CustomLink className="category" to="/Categories">CATEGORIES</CustomLink>
+        </ul>
+      </nav>
+      <div className="profile-pic">
+        <FaUser className="user-nav" />
+      </div>
+    </header>
   );
 }
 

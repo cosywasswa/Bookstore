@@ -27,7 +27,7 @@ function Books() {
   }
   return (
     <>
-      <ul className="list">
+      <article className="article">
         {Object.entries(books).map(([id, book]) => (
           <Book
             key={id}
@@ -37,9 +37,8 @@ function Books() {
             category={book[0].category}
           />
         ))}
-
-      </ul>
-      <BookForm />
+        <BookForm />
+      </article>
     </>
   );
 }
