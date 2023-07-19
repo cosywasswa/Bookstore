@@ -33,12 +33,14 @@ function Book({
           <h2>66%</h2>
           <p>Completed</p>
         </div>
-        <div className="line" />
       </div>
       <div className="update-container">
-        <h5>CURRENT CHAPTER</h5>
-        <p>Chapter 17</p>
-        <Button btnName="update-btn" btnValue="UPDATE PROGRESS" />
+        <div className="line" />
+        <div className="column-chapter">
+          <h5>CURRENT CHAPTER</h5>
+          <p>Chapter 17</p>
+          <Button btnName="update-btn" btnValue="UPDATE PROGRESS" />
+        </div>
       </div>
     </div>
   );
