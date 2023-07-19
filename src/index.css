@@ -90,7 +90,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 5rem;
   margin: 0.8rem;
   background-color: #fff;
   border-radius: 4px;
@@ -101,6 +100,7 @@ a {
   margin: 1rem;
   display: flex;
   flex-direction: column;
+  flex: 2;
 }
 
 .book .cate {
@@ -112,7 +112,6 @@ a {
 }
 
 .book h3 {
-  margin: 0.188rem 20.188rem 0 0;
   font-family: Roboto Slab, sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
@@ -159,6 +158,7 @@ a {
 .progress-sec {
   display: flex;
   gap: 1rem;
+  flex: 1;
 }
 
 .oval {
@@ -202,6 +202,15 @@ a {
 
 .update-container {
   padding-right: 3rem;
+  display: flex;
+  gap: 4rem;
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.column-chapter {
+  display: flex;
+  flex-direction: column;
 }
 
 .update-container h5 {
@@ -245,6 +254,7 @@ a {
   gap: 2rem;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .form-container h2 {
@@ -316,4 +326,8 @@ hr {
   height: 0.125rem;
   margin: 2.5rem 0.063rem 1.813rem 0;
   border: solid 1px #e8e8e8;
+}
+
+.category-container {
+  text-align: center;
 }
